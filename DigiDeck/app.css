@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+  background: #1B1B1B;
+  user-select: none;
+}
+
+.wrapper{
+  width: 500px;
+  height: 80px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: .7%;
+
+  background-image: -webkit-linear-gradient(top, #161616 0%, #1F1F1F 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#161616), to(#1F1F1F));
+}
+
+.button{
+    height: 100%;
+    color: #818181;
+    background-image: linear-gradient(top, #383838 0%, #1F1F1F 5%, #161616 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1F1F1F), to(#161616));
+    border-radius: 7px;
+    float: left;
+    box-shadow: 0 0 1px 1px rgb(10,10,10);
+    cursor: pointer;
+    position: relative;
+    font: normal 25px arial;
+    text-transform: uppercase;
+    padding-left: 4%;
+    padding-top: 5%;
+    margin: 5%
+    vertical-align: bottom;
+    transition: color .3s ease;
+}
+
+.button:hover{
+    color: #9E9E9E;
+}
+
+.button:active{
+    box-shadow: 0 0 1px 1px rgb(10,10,10),
+                    inset 0 2px 2px 0px black;
+}
+
+.button:before{
+    position: absolute;
+    content: '';
+    right: 15px;
+    top: 10px;
+
+    width: 12px;
+    height: 12px;
+    background: #646464;
+    background-image: radial-gradient(top, #616161 0%, #616161 20%, #535353 60%);
+    border-radius: 50%;
+    box-shadow: 0 0 4px #1C1C17;
+    transition: all .3s ease;
+}
+
+.button:hover:before{
+    background: #FF4F4F;
+    box-shadow: 0 0 4px #1C1C17,
+                        0 0 5px #FF4242;
+}
