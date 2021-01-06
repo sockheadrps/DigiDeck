@@ -1,4 +1,4 @@
-This set of scripts uses python to generate the necessary HTML and JS and Python to create a local server that serves a soundboard page over your area network. 
+This set of scripts uses python to generate the necessary HTML, JS and Python to create a local server that serves a soundboard page over your area network. 
 Its use is intended for people who stream games, but was written in a way where all you have to do is drag and drop soundclip mp3's into the folder  
 and everything else is done for you. The soundboard can be accessed and interacted with via wifi with a phone or tablet on the users network and will  
 play the sound locally on the computer so it can be heard in stream.
