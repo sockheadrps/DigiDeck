@@ -19,9 +19,6 @@ file.write('\n\t\t\telse')
 file.write('\n\t\t\t\tconsole.log(xhr.statusText);')
 file.write('\n\t\t}')
 file.write('\n\t\txhr.send();')
-
-
-
 file.write("\n\t}")
 file.write("\n\tbtns[i].addEventListener('click', func);")
 file.write('\n}')
