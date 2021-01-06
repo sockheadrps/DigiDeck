@@ -22,6 +22,7 @@ file.write('\n\t\txhr.send();')
 file.write("\n\t}")
 file.write("\n\tbtns[i].addEventListener('click', func);")
 file.write('\n}')
+file.close()
 
 
 print("#############")
